@@ -1,0 +1,19 @@
+body, html { margin:30px;
+      font-family: sans-serif;background-color: antiquewhite;}
+
+h1 { display:block;}
+ 
+h2 { margin-left: 25px;background-color :red;margin-right: 25px;}
+h3 { margin-left: 25px;background-color :red;margin-right: 25px;}
+li {font-family: Arial; list-style-type: square; color: chocolate }
+
+
+img { 
+      width: 200px;
+      height: 200px;
+      object-position:right}
+.column {float:left}
+
+@media screen and (max-width:700px) and (orientation:portrait) {
+      .img {display: flex;height:100%;}
+
